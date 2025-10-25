@@ -2,8 +2,8 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAZ17W-FRNYv8zYr4CsU_SvkNYS6j4Jsyw",
-  authDomain: "meu-primeiro-firebase-50972.firebaseapp.com",
+  apiKey: process.env.EXPO_PUBLIC_APIKEY,
+  authDomain: process.env.EXPO_PUBLIC_AUTHDOMAIN,
   projectId: "meu-primeiro-firebase-50972",
   storageBucket: "meu-primeiro-firebase-50972.firebasestorage.app",
   messagingSenderId: "407373031593",
